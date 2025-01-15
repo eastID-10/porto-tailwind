@@ -659,6 +659,18 @@ video {
   width: 40%;
 }
 
+.w-auto {
+  width: auto;
+}
+
+.w-1 {
+  width: 0.25rem;
+}
+
+.w-1\/2 {
+  width: 50%;
+}
+
 .shrink-0 {
   flex-shrink: 0;
 }
@@ -1095,6 +1107,11 @@ video {
     margin-bottom: 0px;
   }
 
+  .sm\:my-1 {
+    margin-top: 0.25rem;
+    margin-bottom: 0.25rem;
+  }
+
   .sm\:w-full {
     width: 100%;
   }
@@ -1137,6 +1154,11 @@ video {
     line-height: 1.25rem;
   }
 
+  .sm\:text-xl {
+    font-size: 1.25rem;
+    line-height: 1.75rem;
+  }
+
   .sm\:\*\:py-0 > * {
     padding-top: 0px;
     padding-bottom: 0px;
@@ -1160,5 +1182,15 @@ video {
   .sm\:\*\:text-sm > * {
     font-size: 0.875rem;
     line-height: 1.25rem;
+  }
+
+  .sm\:\*\:text-lg > * {
+    font-size: 1.125rem;
+    line-height: 1.75rem;
+  }
+
+  .sm\:\*\:text-xl > * {
+    font-size: 1.25rem;
+    line-height: 1.75rem;
   }
 }
