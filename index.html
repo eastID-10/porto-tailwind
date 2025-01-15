@@ -11,26 +11,26 @@
 </head>
 
 <body>
-    <div class="w-3/5 text-center sm:mx-auto my-6 ">
+    <div class="w-2/5 text-center sm:mx-auto my-6 mb-7 sm:w-full ">
         <!-- Nav Start -->
-        <div
-            class="nav inline-flex bg-black  py-4 mx-auto text-center *:px-5 *:text-white gap-4 rounded-full sm:p-1 sm:*:text-base">
-            <h4
-                class="font-bold font-mono text-lg hover:bg-slate-200 hover:rounded-full hover:text-slate-900 p-1 hover:text-lg">
-                Project</h4>
-            <h4
-                class="font-bold font-mono text-lg hover:bg-slate-200 hover:rounded-full hover:text-slate-900  p-1 hover:text-lg">
-                About Me</h4>
-            <h4
-                class="font-bold font-mono text-lg hover:bg-slate-200 hover:rounded-full hover:text-slate-900  p-1 hover:text-lg">
-                Contact</h4>
+        <div class="nav w-full flex justify-center bg-black py-4 mx-auto text-center text-white gap-4 rounded-full sm:*:text-sm sm:*:py-0 sm:px-1 ">
+            <a href="#" cl class="font-bold font-mono text-lg hover:bg-slate-200 hover:rounded-full hover:text-slate-900 p-1 hover:text-lg">
+                Project
+            </a>
+            <a href="#" cl class="font-bold font-mono text-lg hover:bg-slate-200 hover:rounded-full hover:text-slate-900 p-1 hover:text-lg">
+                About Me
+            </a>
+            <a href="#" cl class="font-bold font-mono text-lg hover:bg-slate-200 hover:rounded-full hover:text-slate-900 p-1 hover:text-lg">
+                Contact
+            </a>
+            
         </div>
         <!-- Nav End -->
 
         <!-- Section Hero Start -->
         <section id="hero" class="text-center">
             <div class="w-full mt-10">
-                <h1 class="text-7xl font-bold">FRONTEND DEVELOPER & UI UX DESIGNER</h1>
+                <h1 class="text-5xl font-bold">FRONTEND DEVELOPER & UI UX DESIGNER</h1>
             </div>
             <!-- About Me heading Start -->
             <h1 class="text-black text-xl px-4 font-bold font-mono mt-4 text-left  hover:rounded-full hover:text-2xl">
@@ -66,7 +66,7 @@
             <h1 class="mt-10 text-black text-xl px-4 font-bold font-mono text-left  hover:rounded-full hover:text-2xl">
                 Roles</h1>
             <!-- About Me heading End-->
-            <div class="w-full grid grid-cols-2 gap-4 ">
+            <div class="w-full grid grid-cols-2 gap-4">
                 <div class="group relative ">
                     <h1 class=" bg-gradient-to-r from-cyan-500 to-blue-500
                 text-xl font-bold text-white px-2 py-20 rounded-md">Frontend Developer</h1>
@@ -75,9 +75,9 @@
                 absolute w-full h-full top-0 left-0 opacity-0 
                 group-hover:opacity-100   transition-opacity duration-1000
                 group-hover:ease-in-out">
-                a Frontend Developer specializing in responsive, user-friendly designs for websites and mobile apps.
-                Familiar with HTML, CSS, JavaScript, Bootstrap, Tailwind, and React, I transform ideas into intuitive, high-performance interfaces. With a focus on accessibility and cross-platform consistency,
-                 I create seamless digital experiences that engage users and meet modern design standards.</h5>
+                        a Frontend Developer specializing in responsive, user-friendly designs for websites and mobile
+                        apps.
+                        Familiar with <span class="font-medium">HTML, CSS, JavaScript, Bootstrap, Tailwind, and React.</span> Create seamless digital experiences that engage users and meet modern design standards.</h5>
                 </div>
                 <div class="group relative">
                     <div class="bg-gradient-to-r from-violet-500 to-fuchsia-400
@@ -87,15 +87,75 @@
                 absolute w-full h-full top-0 left-0 opacity-0 
                 group-hover:opacity-100   transition-opacity duration-1000
                 group-hover:ease-in-out">
-                A creative UI/UX Designer familiar with crafting user-centered designs that seamlessly integrate 
-                functionality and aesthetics. Proficient in wireframing, prototyping, and user research, with a focus on designing intuitive, visually appealing, and accessible interfaces. Committed to understanding user needs 
-                and delivering impactful digital experiences that prioritize usability and foster meaningful interactions.</h5>
+                        A creative UI/UX Designer familiar with crafting user-centered designs that seamlessly integrate
+                        functionality and aesthetics. Familiar with <span class="font-medium">wireframing, prototyping, and user research</span>, with a
+                        focus on designing intuitive, visually appealing, and accessible interfaces.</h5>
                 </div>
             </div>
+
+        </section>
+        <!-- Section Roles End  -->
+
+        <!-- Section Work Start -->
+        <section id="work">
+
+            <!-- About Me heading Start -->
+            <h1 class="mt-10 text-black text-xl px-4 font-bold font-mono text-left  hover:rounded-full hover:text-2xl">
+                Work</h1>
+            <!-- About Me heading End-->
+
+            <div class="w-full flex justify-center">
+                <img src="src/img/drafle.png" class="w-full shrink-0" alt="drafle">
+            </div>
+
+        </section>
+        <!-- Section Work End -->
+
+        <!-- Section Contact Start -->
+        <section id="contact">
+            <div class="w-full mt-10">
+                <h4 class="text-2xl font-semibold font-mono text-slate-800">Let's Connect With Me!</h4>
+                <h6 class="text-lg font-medium font-mono text-slate-600">Keep in touch
+                    with me, if you
+                    find me interesting 🤗</h6>
+                <form action="">
+                    <div class="w-full mx-auto bg-neutral-100 px-2 py-5 rounded-lg gap-3">
+                        <div class="grid grid-cols-2 gap-4   ">
+                            <div class="text-left">
+                                <label for="" class=" text-slate-600 font-semibold font-mono ">Name</label>
+                                <input type="text" id="name" class="appearance-none w-full block border border-slate-300 rounded-lg
+                            p-1 text-slate-400 bg-transparent focus:ring-slate-300 focus:ring-offset-2 caret-slate-300">
+                            </div>
+                            <div class="text-left">
+                                <label for="" class=" text-slate-600 font-semibold font-mono ">Email</label>
+                                <input type="text" id="email" class="appearance-none w-full block border border-slate-300 rounded-lg
+                            p-1 text-slate-400 bg-transparent focus:ring-slate-300 focus:ring-offset-2 caret-slate-300">
+                            </div>
+                            <div class="text-left col-span-2 ">
+                                <label for="" class=" text-slate-600 font-semibold font-mono ">Message</label>
+                                <textarea id="message" class="w-full h-20 block border border-slate-300 rounded-lg
+                            p-1 text-slate-400 bg-transparent focus:ring-slate-300 focus:ring-offset-2 caret-slate-300">
+                        </textarea>
+                            </div>
+                        </div>
+                        <button type="button"
+                            class="w-full mt-5 p-1 text-lg font-semibold font-mono rounded-full bg-red-400 text-white text-center ">SEND</button>
+                    </div>
+                </form>
+            </div>
+        </section>
+        <!-- Section Contact End -->
+
+
     </div>
-    </section>
-    <!-- Section Roles End  -->
-    </div>
+
 </body>
+<footer class="w-2/5 text-center sm:mx-auto my-6 ">
+    
+    <div class="bg-slate-100 mt-10 rounded-full">
+       <p class="font-mono font-light text-slate-400 text-center"> -- Developed & Design By Easti Damayanti --</p>
+    </div>
+</footer>
+
 
 </html>
